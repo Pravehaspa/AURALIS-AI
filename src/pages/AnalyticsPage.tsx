@@ -84,7 +84,7 @@ export function AnalyticsPage() {
     { label: "Total Conversations", value: totalConversations || data.totalConversations, sub: "Cloud synced", icon: MessageSquare, color: "text-brand-400", bg: "bg-brand-500/10", glow: "#7c3aed" },
     { label: "Total Messages", value: totalDbMessages || data.totalMessages, sub: "All agents", icon: TrendingUp, color: "text-blue-400", bg: "bg-blue-500/10", glow: "#3b82f6" },
     { label: "Active Agents", value: agents.length, sub: `${agents.filter((a) => a.lastUsed && new Date(a.lastUsed) > new Date(Date.now() - 7 * 86400000)).length} this week`, icon: Bot, color: "text-violet-400", bg: "bg-violet-500/10", glow: "#8b5cf6" },
-    { label: "Avg Response", value: data.avgResponseTime, suffix: "s", sub: "OnSpace AI", icon: Clock, color: "text-green-400", bg: "bg-green-500/10", glow: "#10b981" },
+    { label: "Avg Response", value: data.avgResponseTime, suffix: "s", sub: "Auralis AI", icon: Clock, color: "text-green-400", bg: "bg-green-500/10", glow: "#10b981" },
   ];
 
   return (
@@ -223,7 +223,7 @@ export function AnalyticsPage() {
             <Mic size={15} className="text-brand-400" />
             <h3 className="font-display font-semibold text-foreground">Voice Usage</h3>
             <span className="ml-auto flex items-center gap-1 text-[10px] text-brand-300 bg-brand-500/10 px-2 py-0.5 rounded-full">
-              <Sparkles size={9} /> OnSpace AI
+              <Sparkles size={9} /> Auralis AI
             </span>
           </div>
           <div className="flex items-center gap-6">

@@ -8,7 +8,7 @@ import { useAuth, mapSupabaseUser } from "@/contexts/AuthContext";
 import { useNavigate } from "react-router-dom";
 import { toast } from "sonner";
 import logoImg from "@/assets/logo.png";
-import heroBg from "@/assets/hero-bg.jpg";
+import heroBg from "@/assets/hero-bg.svg";
 
 type AuthStep = "login" | "register-email" | "register-otp" | "register-password";
 
@@ -172,7 +172,7 @@ export function AuthPage() {
           <div className="max-w-lg">
             <div className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-white/10 border border-white/20 text-xs text-white/80 mb-6">
               <Sparkles size={12} className="text-violet-300" />
-              Powered by OnSpace AI + Gemini 3
+              Powered by Auralis AI + Gemini 3
             </div>
             <h2 className="font-display font-bold text-4xl text-white leading-tight mb-4">
               Voice agents that<br />

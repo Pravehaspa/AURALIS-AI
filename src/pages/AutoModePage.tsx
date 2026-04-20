@@ -255,7 +255,7 @@ export function AutoModePage() {
               {autoModeState === "processing" && (
                 <div className="mt-4 flex items-center gap-2 text-xs text-brand-400 bg-brand-500/10 px-3 py-1.5 rounded-full border border-brand-500/20">
                   <Loader2 size={11} className="animate-spin" />
-                  Generating via OnSpace AI · Gemini 3 Flash
+                  Generating via Auralis AI · Gemini 3 Flash
                 </div>
               )}
 

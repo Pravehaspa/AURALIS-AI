@@ -24,7 +24,7 @@ Deno.serve(async (req: Request) => {
 
     if (!apiKey || !baseUrl) {
       return new Response(
-        JSON.stringify({ error: 'OnSpace AI not configured' }),
+        JSON.stringify({ error: 'Auralis AI not configured' }),
         { status: 500, headers: { ...corsHeaders, 'Content-Type': 'application/json' } }
       );
     }
@@ -68,9 +68,9 @@ IMPORTANT RULES:
 
     if (!response.ok) {
       const errorText = await response.text();
-      console.error(`[auralis-ai-chat] OnSpace AI error: ${errorText}`);
+      console.error(`[auralis-ai-chat] Auralis AI error: ${errorText}`);
       return new Response(
-        JSON.stringify({ error: `OnSpace AI error: ${errorText}` }),
+        JSON.stringify({ error: `Auralis AI error: ${errorText}` }),
         { status: response.status, headers: { ...corsHeaders, 'Content-Type': 'application/json' } }
       );
     }

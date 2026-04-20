@@ -195,7 +195,7 @@ export function SettingsPage() {
               <div className="text-right">
                 <div className="flex items-center gap-1.5 justify-end">
                   <Sparkles size={11} className="text-brand-400" />
-                  <p className="text-xs text-brand-400 font-medium">OnSpace AI</p>
+                  <p className="text-xs text-brand-400 font-medium">Auralis AI</p>
                 </div>
                 <p className="text-[10px] text-muted-foreground/50 mt-0.5">React + TypeScript + Gemini 3</p>
               </div>

@@ -262,7 +262,7 @@ export function ChatPage() {
                 </div>
                 <p className="text-[10px] text-muted-foreground/50 mt-8 flex items-center gap-1.5">
                   <Sparkles size={10} className="text-brand-400" />
-                  Powered by OnSpace AI · Gemini 3 Flash · Cloud synced
+                  Powered by Auralis AI · Gemini 3 Flash · Cloud synced
                 </p>
               </div>
             )}

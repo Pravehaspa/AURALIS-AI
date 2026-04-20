@@ -154,14 +154,14 @@ export function Sidebar() {
           </Link>
         )}
 
-        {/* OnSpace AI status badge */}
+        {/* Auralis AI status badge */}
         <div className="glass rounded-xl p-2.5">
           <div className="flex items-center gap-2">
             <div className="w-6 h-6 rounded-lg brand-gradient flex items-center justify-center flex-shrink-0">
               <Zap size={11} className="text-white" />
             </div>
             <div className="min-w-0 flex-1">
-              <p className="text-[11px] font-medium text-foreground leading-none">OnSpace AI</p>
+              <p className="text-[11px] font-medium text-foreground leading-none">Auralis AI</p>
               <p className="text-[9px] text-muted-foreground/60 mt-0.5 leading-none">Gemini 3 Flash · Active</p>
             </div>
             <div className="flex items-center gap-1">

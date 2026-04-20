@@ -1,18 +1,18 @@
-# Welcome to your OnSpace project
+# Welcome to your Auralis AI project
 
 ## How can I edit this code?
 
 There are several ways of editing your application.
 
-**Use OnSpace**
+**Use Auralis AI**
 
-Simply visit the [OnSpace Project]() and start prompting.
+Simply visit the [Auralis AI Project]() and start prompting.
 
-Changes made via OnSpace will be committed automatically to this repo.
+Changes made via Auralis AI will be committed automatically to this repo.
 
 **Use your preferred IDE**
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in OnSpace.
+If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Auralis AI.
 
 The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
 
@@ -58,4 +58,4 @@ This project is built with:
 
 ## How can I deploy this project?
 
-Simply open [OnSpace]() and click on Share -> Publish.
+Simply open [Auralis AI]() and click on Share -> Publish.

@@ -10,7 +10,7 @@ import { GridPattern } from "@/components/ui/grid-pattern";
 import { SpotlightBeam } from "@/components/ui/spotlight";
 import { GlowCard } from "@/components/ui/glow-card";
 import logoImg from "@/assets/logo.png";
-import heroBg from "@/assets/hero-bg.jpg";
+import heroBg from "@/assets/hero-bg.svg";
 import { cn } from "@/lib/utils";
 
 const HERO_WORDS = ["Customer Support", "Sales Assistants", "Tutors", "Health Guides", "Code Reviewers", "Creative Writers"];
@@ -93,7 +93,7 @@ const TESTIMONIALS = [
   },
   {
     name: "David Kim", role: "AI Researcher", avatar: "DK", color: "#f59e0b",
-    text: "The OnSpace AI integration under the hood is brilliant. Gemini 3 Flash responses feel truly intelligent.", stars: 5,
+    text: "The Auralis AI integration under the hood is brilliant. Gemini 3 Flash responses feel truly intelligent.", stars: 5,
   },
   {
     name: "Elena Kowalski", role: "Content Creator", avatar: "EK", color: "#ec4899",
@@ -230,7 +230,7 @@ export function LandingPage({ onGetStarted }: { onGetStarted: () => void }) {
             }}
           >
             <Sparkles size={13} />
-            Powered by OnSpace AI · Gemini 3 Flash
+            Powered by Auralis AI · Gemini 3 Flash
             <ArrowRight size={12} className="opacity-60" />
           </div>
 
@@ -508,7 +508,7 @@ export function LandingPage({ onGetStarted }: { onGetStarted: () => void }) {
                   Get Started Free
                 </Button>
                 <p className="text-xs text-muted-foreground mt-6 opacity-60">
-                  Free · No credit card · Powered by OnSpace AI
+                  Free · No credit card · Powered by Auralis AI
                 </p>
               </div>
             </div>
@@ -526,7 +526,7 @@ export function LandingPage({ onGetStarted }: { onGetStarted: () => void }) {
             <span className="font-display font-bold text-foreground">Auralis AI</span>
           </div>
           <p className="text-xs text-muted-foreground opacity-60">
-            © 2026 Auralis AI · Major Project · React + OnSpace AI + Supabase
+            © 2026 Auralis AI · Major Project · React + Auralis AI + Supabase
           </p>
           <div className="flex items-center gap-2">
             <div className="w-2 h-2 rounded-full bg-green-400 animate-pulse" />
